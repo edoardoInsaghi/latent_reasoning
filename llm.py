@@ -84,9 +84,9 @@ class LatentThinkingModel(nn.Module):
 
         if pseudo_tokens:
             full_sequence = (
-            token_inputs.input_ids[0].tolist() +  
-            pseudo_tokens_list +           
-            outputs[0].tolist()
+                token_inputs.input_ids[0].tolist() +  
+                pseudo_tokens_list +           
+                outputs[0].tolist()
             )
             full_sequence = self.tokenizer.decode(full_sequence, skip_special_tokens=False)
 
