@@ -22,4 +22,19 @@ PERPLEXITY_THRESHOLD = 2.0
 # perform a certain number of steps before answering the query.
 START_THINKING_STEPS = 30
 
+# This will be changed depending on what we need to do
+MAX_NEW_TOKENS = 1024
+
+
+
+# Datasets
+"""
+GSM8K
+
+GSM8K (Grade School Math 8K) is a dataset of 8.5K high quality linguistically diverse grade school math word problems. 
+The dataset was created to support the task of question answering on basic mathematical problems that require multi-step reasoning.
+"""
+
+
+
 
